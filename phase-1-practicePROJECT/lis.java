@@ -17,8 +17,8 @@ public class lis {
 	        return max;
 	    }
 		public static void main(String args[]) {
-			int arr[] = {10, 22, 9, 33, 21, 50, 41, 60, 80};
-			int n = 9;
+			int arr[] = {5,10,22,9,28,33,50,44,60,80,68,88,90};
+			int n = 13;
 			System.out.println(lis(arr, n));
 		}
 	}
